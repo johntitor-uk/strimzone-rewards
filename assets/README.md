@@ -1,98 +1,78 @@
-\# StrimZone Rewards Assets
-
-
+# StrimZone Rewards Assets
 
 Estructura oficial para assets publicos de recompensas StrimZone.
 
+## Regla principal
 
+assets/<tipo>/<tmdbId>/<categoria>/<rewardId>/<archivo>
 
-\## Regla principal
+## Tipos permitidos
 
+- movies: peliculas
+- series: series
+- anime: anime
 
+## Categorias permitidas
 
-assets/<tipo>/<tmdbId>/rewards/<rewardId>/<archivo>
+- trophies
+- posters
+- packs
 
+## Archivos recomendados dentro de cada recompensa
 
+### Trofeos
 
-\## Tipos permitidos
+assets/movies/105/trophies/bttf_movie_1_delorean_trophy/trophy.png
+assets/movies/105/trophies/bttf_movie_1_delorean_trophy/background.png
+assets/movies/105/trophies/bttf_movie_1_delorean_trophy/badge.png
+assets/movies/105/trophies/bttf_movie_1_delorean_trophy/model.glb
 
+### Posters
 
+assets/movies/105/posters/bttf_movie_1_poster/poster.png
+assets/movies/105/posters/bttf_movie_1_poster/background.png
+assets/movies/105/posters/bttf_movie_1_poster/badge.png
 
-\- movies: peliculas
+### Packs
 
-\- series: series
+assets/movies/105/packs/bttf_saga_pack/cover.png
+assets/movies/105/packs/bttf_saga_pack/background.png
+assets/movies/105/packs/bttf_saga_pack/badge.png
 
-\- anime: anime
+## Regla importante
 
+No usar carpetas globales como:
 
+assets/trophies
+assets/posters
+assets/models
+assets/badges
 
-\## Ejemplo pelicula
+Eso mezcla peliculas, series y anime.
 
+Cada asset debe vivir dentro de su contenido:
 
+assets/<tipo>/<tmdbId>/<categoria>/<rewardId>/
 
-assets/movies/105/rewards/bttf\_movie\_1\_delorean\_trophy/trophy.png
+## URLs publicas
 
-assets/movies/105/rewards/bttf\_movie\_1\_delorean\_trophy/background.png
+GitHub Pages sirve los archivos asi:
 
-assets/movies/105/rewards/bttf\_movie\_1\_delorean\_trophy/badge.png
+https://johntitor-uk.github.io/strimzone-rewards/assets/<tipo>/<tmdbId>/<categoria>/<rewardId>/<archivo>
 
-assets/movies/105/rewards/bttf\_movie\_1\_delorean\_trophy/model.glb
+## Ejemplo manifest para trofeo
 
+"assets": {
+  "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/105/trophies/bttf_movie_1_delorean_trophy/trophy.png",
+  "background": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/105/trophies/bttf_movie_1_delorean_trophy/background.png",
+  "badge": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/105/trophies/bttf_movie_1_delorean_trophy/badge.png",
+  "model": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/105/trophies/bttf_movie_1_delorean_trophy/model.glb"
+}
 
+## Ejemplo manifest para poster
 
-\## Ejemplo poster
-
-
-
-assets/movies/105/rewards/bttf\_movie\_1\_poster/poster.png
-
-assets/movies/105/rewards/bttf\_movie\_1\_poster/background.png
-
-
-
-\## Ejemplo serie
-
-
-
-assets/series/1399/rewards/got\_iron\_throne\_trophy/trophy.png
-
-assets/series/1399/rewards/got\_iron\_throne\_trophy/background.png
-
-
-
-\## Ejemplo anime
-
-
-
-assets/anime/37854/rewards/one\_piece\_wanted\_poster/poster.png
-
-assets/anime/37854/rewards/one\_piece\_wanted\_poster/background.png
-
-
-
-\## Nombres recomendados dentro de cada recompensa
-
-
-
-\- trophy.png
-
-\- poster.png
-
-\- background.png
-
-\- badge.png
-
-\- model.glb
-
-
-
-\## Manifest
-
-
-
-Cada reward en manifest.json debe apuntar a estas URLs publicas:
-
-
-
-https://johntitor-uk.github.io/strimzone-rewards/assets/<tipo>/<tmdbId>/rewards/<rewardId>/<archivo>
-
+"assets": {
+  "poster": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/105/posters/bttf_movie_1_poster/poster.png",
+  "background": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/105/posters/bttf_movie_1_poster/background.png",
+  "badge": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/105/posters/bttf_movie_1_poster/badge.png"
+}
