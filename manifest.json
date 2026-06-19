@@ -1,6 +1,128 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-06-19T00:00:00Z",
-  "packs": [],
-  "rewards": []
+  "packs": [
+    {
+      "id": "pack_back_to_future",
+      "title": "Pack Volver al Futuro",
+      "description": "Coleccion especial para completar la saga temporal.",
+      "type": "movie_saga",
+      "requiredContentIds": [
+        "movie:105",
+        "movie:165",
+        "movie:196"
+      ],
+      "finalRewardIds": [
+        "bttf_mega_delorean_trophy",
+        "bttf_mythic_saga_poster"
+      ],
+      "assets": {
+        "image": "",
+        "background": ""
+      },
+      "sortOrder": 10
+    }
+  ],
+  "rewards": [
+    {
+      "id": "bttf_movie_1_xp",
+      "type": "xp",
+      "title": "+250 XP",
+      "description": "Completa Volver al Futuro para ganar experiencia.",
+      "rarity": "common",
+      "mediaType": "movie",
+      "tmdbId": 105,
+      "collectionId": "pack_back_to_future",
+      "xpAmount": 250,
+      "unlockRule": {
+        "type": "watch_progress",
+        "minimumProgress": 0.9,
+        "requiresClaim": true
+      },
+      "assets": {},
+      "sortOrder": 10
+    },
+    {
+      "id": "bttf_movie_1_poster",
+      "type": "poster",
+      "title": "Poster temporal 1985",
+      "description": "Poster coleccionable de edicion StrimZone.",
+      "rarity": "epic",
+      "mediaType": "movie",
+      "tmdbId": 105,
+      "collectionId": "pack_back_to_future",
+      "unlockRule": {
+        "type": "watch_progress",
+        "minimumProgress": 0.9,
+        "requiresClaim": true
+      },
+      "assets": {
+        "poster": "",
+        "badge": ""
+      },
+      "sortOrder": 20
+    },
+    {
+      "id": "bttf_movie_1_delorean_trophy",
+      "type": "trophy",
+      "title": "Trofeo DeLorean",
+      "description": "Trofeo 3D por completar la primera aventura temporal.",
+      "rarity": "legendary",
+      "mediaType": "movie",
+      "tmdbId": 105,
+      "collectionId": "pack_back_to_future",
+      "unlockRule": {
+        "type": "watch_progress",
+        "minimumProgress": 0.9,
+        "requiresClaim": true
+      },
+      "assets": {
+        "image": "",
+        "model": "",
+        "background": "",
+        "badge": ""
+      },
+      "sortOrder": 30
+    },
+    {
+      "id": "bttf_mega_delorean_trophy",
+      "type": "mega_trophy",
+      "title": "Mega Trofeo DeLorean Temporal",
+      "description": "Recompensa final por completar toda la saga Volver al Futuro.",
+      "rarity": "mythic",
+      "collectionId": "pack_back_to_future",
+      "secret": true,
+      "unlockRule": {
+        "type": "saga_completed",
+        "collectionId": "pack_back_to_future",
+        "requiresClaim": true
+      },
+      "assets": {
+        "image": "",
+        "model": "",
+        "background": "",
+        "badge": ""
+      },
+      "sortOrder": 100
+    },
+    {
+      "id": "bttf_mythic_saga_poster",
+      "type": "poster",
+      "title": "Poster mitico de saga completa",
+      "description": "Poster especial por completar la saga Volver al Futuro.",
+      "rarity": "mythic",
+      "collectionId": "pack_back_to_future",
+      "secret": true,
+      "unlockRule": {
+        "type": "saga_completed",
+        "collectionId": "pack_back_to_future",
+        "requiresClaim": true
+      },
+      "assets": {
+        "poster": "",
+        "badge": ""
+      },
+      "sortOrder": 110
+    }
+  ]
 }
