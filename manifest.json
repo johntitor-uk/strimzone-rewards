@@ -1,138 +1,20 @@
 {
     "schemaVersion":  1,
-    "updatedAt":  "2026-06-19T22:06:43Z",
-    "packs":  [
-                  {
-                      "id":  "pack_back_to_future",
-                      "title":  "Pack Volver al Futuro",
-                      "description":  "Completa Volver al Futuro I, II y III para desbloquear recompensas legendarias de la saga.",
-                      "type":  "movie_saga",
-                      "requiredContentIds":  [
-                                                 "movie:105",
-                                                 "movie:165",
-                                                 "movie:196"
-                                             ],
-                      "finalRewardIds":  [
-                                             "bttf_mega_delorean_trophy",
-                                             "bttf_mythic_saga_poster"
-                                         ],
-                      "assets":  {
-                                     "image":  "",
-                                     "background":  ""
-                                 },
-                      "sortOrder":  10
-                  }
-              ],
-    "rewards":  [
-                    {
-                        "id":  "bttf_movie_1_xp",
-                        "type":  "xp",
-                        "title":  "XP del viaje temporal 1985",
-                        "description":  "Mira Volver al Futuro I para ganar XP.",
-                        "rarity":  "common",
-                        "mediaType":  "movie",
-                        "tmdbId":  105,
-                        "collectionId":  "pack_back_to_future",
-                        "xpAmount":  250,
-                        "unlockRule":  {
-                                           "type":  "watch_progress",
-                                           "minimumProgress":  0.9,
-                                           "contentId":  "movie:105",
-                                           "requiresClaim":  true
-                                       },
-                        "assets":  {
+    "updatedAt":  "2026-06-20T04:55:42Z",
+    "catalogs":  {
+                     "movies":  {
+                                    "105":  "catalog/collections/pack_back_to_future.json",
+                                    "165":  "catalog/collections/pack_back_to_future.json",
+                                    "196":  "catalog/collections/pack_back_to_future.json"
+                                },
+                     "series":  {
 
-                                   },
-                        "sortOrder":  5
-                    },
-                    {
-                        "id":  "bttf_movie_2_poster",
-                        "type":  "poster",
-                        "title":  "Poster Futuro 2015",
-                        "description":  "Mira Volver al Futuro II para desbloquear este poster.",
-                        "rarity":  "epic",
-                        "mediaType":  "movie",
-                        "tmdbId":  165,
-                        "collectionId":  "pack_back_to_future",
-                        "unlockRule":  {
-                                           "type":  "watch_progress",
-                                           "minimumProgress":  0.9,
-                                           "contentId":  "movie:165",
-                                           "requiresClaim":  true
-                                       },
-                        "assets":  {
-                                       "poster":  "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/165/posters/bttf_movie_2_poster/poster.png",
-                                       "background":  "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/165/posters/bttf_movie_2_poster/background.png"
-                                   },
-                        "sortOrder":  20
-                    },
-                    {
-                        "id":  "bttf_movie_1_delorean_trophy",
-                        "type":  "trophy",
-                        "title":  "Trofeo DeLorean 1985",
-                        "description":  "Mira Volver al Futuro I para desbloquear este trofeo.",
-                        "rarity":  "legendary",
-                        "mediaType":  "movie",
-                        "tmdbId":  105,
-                        "collectionId":  "pack_back_to_future",
-                        "unlockRule":  {
-                                           "type":  "watch_progress",
-                                           "minimumProgress":  0.9,
-                                           "contentId":  "movie:105",
-                                           "requiresClaim":  true
-                                       },
-                        "assets":  {
-                                       "image":  "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/105/trophies/bttf_movie_1_delorean_trophy/trophy.png",
-                                       "background":  "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/105/trophies/bttf_movie_1_delorean_trophy/background.png",
-                                       "model":  "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/105/trophies/bttf_movie_1_delorean_trophy/model.glb"
-                                   },
-                        "sortOrder":  10
-                    },
-                    {
-                        "id":  "bttf_mega_delorean_trophy",
-                        "type":  "mega_trophy",
-                        "title":  "Mega Trofeo DeLorean Legendario",
-                        "description":  "Mira Volver al Futuro I, II y III para desbloquear el trofeo legendario de la saga.",
-                        "rarity":  "legendary",
-                        "collectionId":  "pack_back_to_future",
-                        "secret":  true,
-                        "unlockRule":  {
-                                           "type":  "saga_completed",
-                                           "contentIds":  [
-                                                              "movie:105",
-                                                              "movie:165",
-                                                              "movie:196"
-                                                          ],
-                                           "collectionId":  "pack_back_to_future",
-                                           "requiresClaim":  true
-                                       },
-                        "assets":  {
-                                       "image":  "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/105/trophies/bttf_mega_delorean_trophy/trophy.png",
-                                       "background":  "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/105/trophies/bttf_mega_delorean_trophy/background.png",
-                                       "model":  "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/105/trophies/bttf_mega_delorean_trophy/model.glb"
-                                   },
-                        "sortOrder":  30,
-                        "mediaType":  "movie",
-                        "tmdbId":  105
-                    },
-                    {
-                        "id":  "bttf_mythic_saga_poster",
-                        "type":  "poster",
-                        "title":  "Poster mitico de saga completa",
-                        "description":  "Poster especial por completar la saga Volver al Futuro.",
-                        "rarity":  "mythic",
-                        "collectionId":  "pack_back_to_future",
-                        "secret":  true,
-                        "unlockRule":  {
-                                           "type":  "saga_completed",
-                                           "collectionId":  "pack_back_to_future",
-                                           "requiresClaim":  true
-                                       },
-                        "assets":  {
-                                       "poster":  "",
-                                       "badge":  ""
-                                   },
-                        "sortOrder":  110
-                    }
-                ]
+                                },
+                     "anime":  {
+
+                               },
+                     "collections":  {
+                                         "pack_back_to_future":  "catalog/collections/pack_back_to_future.json"
+                                     }
+                 }
 }
