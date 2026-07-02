@@ -1,11 +1,17 @@
 {
     "schemaVersion":  1,
-    "updatedAt":  "2026-06-20T04:55:42Z",
+    "updatedAt":  "2026-07-02T22:04:27Z",
     "catalogs":  {
                      "movies":  {
-                                    "105":  "catalog/collections/pack_back_to_future.json",
-                                    "165":  "catalog/collections/pack_back_to_future.json",
-                                    "196":  "catalog/collections/pack_back_to_future.json"
+                                    "105":  [
+                                                "catalog/collections/movie_sagas/pack_back_to_future.json"
+                                            ],
+                                    "165":  [
+                                                "catalog/collections/movie_sagas/pack_back_to_future.json"
+                                            ],
+                                    "196":  [
+                                                "catalog/collections/movie_sagas/pack_back_to_future.json"
+                                            ]
                                 },
                      "series":  {
 
@@ -14,7 +20,7 @@
 
                                },
                      "collections":  {
-                                         "pack_back_to_future":  "catalog/collections/pack_back_to_future.json"
+                                         "pack_back_to_future":  "catalog/collections/movie_sagas/pack_back_to_future.json"
                                      }
                  }
 }
