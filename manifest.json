@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "updatedAt":  "2026-07-03T20:00:39Z",
+    "updatedAt":  "2026-07-03T20:52:35Z",
     "catalogs":  {
                      "movies":  {
                                     "105":  [
@@ -23,7 +23,10 @@
 
                                },
                      "collections":  {
-                                         "pack_back_to_future":  "catalog/collections/movie_sagas/pack_back_to_future.json"
+                                         "pack_back_to_future":  "catalog/collections/movie_sagas/pack_back_to_future.json",
+                                         "movie_1273221_scary_movie_collection":  [
+                                                                                      "catalog/standalone/movies/1273221.json"
+                                                                                  ]
                                      }
                  }
 }
