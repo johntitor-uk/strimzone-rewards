@@ -1,0 +1,102 @@
+{
+    "schemaVersion":  1,
+    "catalogType":  "collection",
+    "id":  "movie_1273221_scary_movie_collection_catalog",
+    "title":  "Scary Movie",
+    "description":  "Coleccion de Scary Movie con poster, trofeo 3D y 100 XP.",
+    "updatedAt":  "2026-07-03T21:22:50Z",
+    "contentIds":  [
+                       "movie:1273221"
+                   ],
+    "packs":  [
+                  {
+                      "id":  "movie_1273221_scary_movie_collection",
+                      "title":  "Scary Movie",
+                      "description":  "Nuevo pack de pelicula con poster, trofeo 3D y 100 XP.",
+                      "type":  "collection",
+                      "requiredContentIds":  [
+                                                 "movie:1273221"
+                                             ],
+                      "finalRewardIds":  [
+                                             "movie_1273221_scary_movie_watch_xp",
+                                             "movie_1273221_scary_movie_poster",
+                                             "movie_1273221_scary_movie_ghostface_trophy"
+                                         ],
+                      "assets":  {
+                                     "image":  "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1273221/posters/movie_1273221_scary_movie_poster/poster.png",
+                                     "poster":  "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1273221/posters/movie_1273221_scary_movie_poster/poster.png",
+                                     "background":  "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1273221/posters/movie_1273221_scary_movie_poster/poster.png"
+                                 },
+                      "sortOrder":  5,
+                      "addedAt":  "2026-07-03T20:52:35Z"
+                  }
+              ],
+    "rewards":  [
+                    {
+                        "id":  "movie_1273221_scary_movie_watch_xp",
+                        "type":  "xp",
+                        "title":  "100 XP Scary Movie",
+                        "description":  "Recompensa de XP por completar Scary Movie.",
+                        "rarity":  "common",
+                        "mediaType":  "movie",
+                        "tmdbId":  1273221,
+                        "xpAmount":  100,
+                        "unlockRule":  {
+                                           "type":  "watch_progress",
+                                           "minimumProgress":  0.9,
+                                           "contentId":  "movie:1273221",
+                                           "requiresClaim":  true
+                                       },
+                        "assets":  {
+                                       "image":  "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1273221/posters/movie_1273221_scary_movie_poster/poster.png",
+                                       "poster":  "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1273221/posters/movie_1273221_scary_movie_poster/poster.png"
+                                   },
+                        "sortOrder":  10,
+                        "collectionId":  "movie_1273221_scary_movie_collection"
+                    },
+                    {
+                        "id":  "movie_1273221_scary_movie_poster",
+                        "type":  "poster",
+                        "title":  "Poster Scary Movie",
+                        "description":  "Poster exclusivo de la nueva Scary Movie.",
+                        "rarity":  "epic",
+                        "mediaType":  "movie",
+                        "tmdbId":  1273221,
+                        "unlockRule":  {
+                                           "type":  "watch_progress",
+                                           "minimumProgress":  0.9,
+                                           "contentId":  "movie:1273221",
+                                           "requiresClaim":  true
+                                       },
+                        "assets":  {
+                                       "image":  "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1273221/posters/movie_1273221_scary_movie_poster/poster.png",
+                                       "poster":  "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1273221/posters/movie_1273221_scary_movie_poster/poster.png"
+                                   },
+                        "sortOrder":  20,
+                        "collectionId":  "movie_1273221_scary_movie_collection"
+                    },
+                    {
+                        "id":  "movie_1273221_scary_movie_ghostface_trophy",
+                        "type":  "trophy",
+                        "title":  "Trofeo Scary Movie",
+                        "description":  "Trofeo 3D exclusivo de Scary Movie para tu vitrina.",
+                        "rarity":  "legendary",
+                        "mediaType":  "movie",
+                        "tmdbId":  1273221,
+                        "unlockRule":  {
+                                           "type":  "watch_progress",
+                                           "minimumProgress":  0.9,
+                                           "contentId":  "movie:1273221",
+                                           "requiresClaim":  true
+                                       },
+                        "assets":  {
+                                       "image":  "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1273221/trophies/movie_1273221_scary_movie_ghostface_trophy/trophy.png",
+                                       "badge":  "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1273221/trophies/movie_1273221_scary_movie_ghostface_trophy/trophy.png",
+                                       "background":  "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1273221/trophies/movie_1273221_scary_movie_ghostface_trophy/background.png",
+                                       "model":  "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1273221/trophies/movie_1273221_scary_movie_ghostface_trophy/model.glb"
+                                   },
+                        "sortOrder":  30,
+                        "collectionId":  "movie_1273221_scary_movie_collection"
+                    }
+                ]
+}
