@@ -3,8 +3,8 @@
     "catalogType":  "collection",
     "id":  "movie_1273221_scary_movie_collection_catalog",
     "title":  "Scary Movie",
-    "description":  "Coleccion de Scary Movie con poster, trofeo 3D y 100 XP.",
-    "updatedAt":  "2026-07-03T21:22:50Z",
+    "description":  "ColecciÃ³n de Scary Movie con pÃ³ster, trofeo 3D y 100 XP.",
+    "updatedAt":  "2026-07-05T15:48:52Z",
     "contentIds":  [
                        "movie:1273221"
                    ],
@@ -12,7 +12,7 @@
                   {
                       "id":  "movie_1273221_scary_movie_collection",
                       "title":  "Scary Movie",
-                      "description":  "Nuevo pack de pelicula con poster, trofeo 3D y 100 XP.",
+                      "description":  "Pack especial de Scary Movie con pÃ³ster, trofeo 3D y 100 XP.",
                       "type":  "collection",
                       "requiredContentIds":  [
                                                  "movie:1273221"
@@ -79,7 +79,7 @@
                         "id":  "movie_1273221_scary_movie_ghostface_trophy",
                         "type":  "trophy",
                         "title":  "Trofeo Scary Movie",
-                        "description":  "Trofeo 3D exclusivo de Scary Movie para tu vitrina.",
+                        "description":  "Una reliquia de culto para sobrevivientes del humor mÃ¡s absurdo.",
                         "rarity":  "legendary",
                         "mediaType":  "movie",
                         "tmdbId":  1273221,
@@ -96,7 +96,13 @@
                                        "model":  "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1273221/trophies/movie_1273221_scary_movie_ghostface_trophy/model.glb"
                                    },
                         "sortOrder":  30,
-                        "collectionId":  "movie_1273221_scary_movie_collection"
+                        "collectionId":  "movie_1273221_scary_movie_collection",
+                        "origin":  "Por ver la pelÃ­cula Scary Movie",
+                        "sourceLabel":  "Por ver la pelÃ­cula Scary Movie",
+                        "metadata":  {
+                                         "origin":  "Por ver la pelÃ­cula Scary Movie",
+                                         "sourceLabel":  "Por ver la pelÃ­cula Scary Movie"
+                                     }
                     }
                 ]
 }
