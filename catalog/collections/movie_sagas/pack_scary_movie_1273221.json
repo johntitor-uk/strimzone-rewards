@@ -4,7 +4,7 @@
     "id":  "movie_1273221_scary_movie_collection_catalog",
     "title":  "Scary Movie",
     "description":  "ColecciÃ³n de Scary Movie con pÃ³ster, trofeo 3D y 100 XP.",
-    "updatedAt":  "2026-07-05T15:48:52Z",
+    "updatedAt":  "2026-07-05T16:07:21Z",
     "contentIds":  [
                        "movie:1273221"
                    ],
@@ -78,8 +78,8 @@
                     {
                         "id":  "movie_1273221_scary_movie_ghostface_trophy",
                         "type":  "trophy",
-                        "title":  "Trofeo Scary Movie",
-                        "description":  "Una reliquia de culto para sobrevivientes del humor mÃ¡s absurdo.",
+                        "title":  "Trofeo Scary Movie 6",
+                        "description":  "Una reliquia de culto para sobrevivientes del humor mas absurdo.",
                         "rarity":  "legendary",
                         "mediaType":  "movie",
                         "tmdbId":  1273221,
@@ -97,11 +97,11 @@
                                    },
                         "sortOrder":  30,
                         "collectionId":  "movie_1273221_scary_movie_collection",
-                        "origin":  "Por ver la pelÃ­cula Scary Movie",
-                        "sourceLabel":  "Por ver la pelÃ­cula Scary Movie",
+                        "origin":  "Scary Movie 6",
+                        "sourceLabel":  "Scary Movie 6",
                         "metadata":  {
-                                         "origin":  "Por ver la pelÃ­cula Scary Movie",
-                                         "sourceLabel":  "Por ver la pelÃ­cula Scary Movie"
+                                         "origin":  "Scary Movie 6",
+                                         "sourceLabel":  "Scary Movie 6"
                                      }
                     }
                 ]
