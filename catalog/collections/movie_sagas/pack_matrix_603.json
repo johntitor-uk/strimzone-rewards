@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "catalogType": "collection",
+  "id": "movie_603_matrix_collection_catalog",
+  "title": "Matrix",
+  "description": "Colección de Matrix con el Trofeo La Píldora Roja y 500 XP.",
+  "updatedAt": "2026-07-22T21:08:25.569Z",
+  "contentIds": [
+    "movie:603"
+  ],
+  "packs": [
+    {
+      "id": "movie_603_matrix_collection",
+      "title": "Matrix",
+      "description": "Recompensa especial de Matrix con el Trofeo La Píldora Roja y 500 XP.",
+      "type": "collection",
+      "requiredContentIds": [
+        "movie:603"
+      ],
+      "finalRewardIds": [
+        "movie_603_matrix_red_pill_trophy"
+      ],
+      "assets": {
+        "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/trophies/movie_603_matrix_red_pill_trophy/trophy.png",
+        "background": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/trophies/movie_603_matrix_red_pill_trophy/background.png"
+      },
+      "sortOrder": 5,
+      "addedAt": "2026-07-22T21:08:25.569Z"
+    }
+  ],
+  "rewards": [
+    {
+      "id": "movie_603_matrix_red_pill_trophy",
+      "type": "trophy",
+      "title": "Trofeo La Píldora Roja",
+      "description": "Completa Matrix para dominar el código y desbloquear este trofeo legendario.",
+      "rarity": "legendary",
+      "mediaType": "movie",
+      "tmdbId": 603,
+      "xpAmount": 500,
+      "unlockRule": {
+        "type": "watch_progress",
+        "minimumProgress": 0.9,
+        "contentId": "movie:603",
+        "requiresClaim": true
+      },
+      "assets": {
+        "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/trophies/movie_603_matrix_red_pill_trophy/trophy.png",
+        "badge": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/trophies/movie_603_matrix_red_pill_trophy/trophy.png",
+        "background": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/trophies/movie_603_matrix_red_pill_trophy/background.png",
+        "model": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/trophies/movie_603_matrix_red_pill_trophy/model.glb"
+      },
+      "sortOrder": 30,
+      "collectionId": "movie_603_matrix_collection",
+      "origin": "Matrix",
+      "sourceLabel": "Matrix",
+      "metadata": {
+        "origin": "Matrix",
+        "sourceLabel": "Matrix"
+      },
+      "secret": false
+    }
+  ]
+}
