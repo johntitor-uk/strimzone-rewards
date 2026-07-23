@@ -4,7 +4,7 @@
   "id": "movie_603_matrix_collection_catalog",
   "title": "Matrix",
   "description": "Matrix: Trofeo La Píldora Roja con 500 XP.",
-  "updatedAt": "2026-07-23T23:11:44.390Z",
+  "updatedAt": "2026-07-23T23:11:49.125Z",
   "contentIds": [
     "movie:603"
   ],
@@ -19,7 +19,8 @@
       ],
       "finalRewardIds": [
         "movie_603_matrix_la_pildora_roja_trophy",
-        "movie_603_matrix_matrix_xp"
+        "movie_603_matrix_matrix_xp",
+        "movie_603_matrix_epico_de_matrix_poster"
       ],
       "assets": {
         "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/trophies/movie_603_matrix_la_pildora_roja_trophy/trophy.png",
@@ -77,6 +78,36 @@
         "requiresClaim": true
       },
       "assets": {},
+      "sortOrder": 30,
+      "collectionId": "movie_603_matrix_collection",
+      "origin": "Matrix",
+      "sourceLabel": "Matrix",
+      "metadata": {
+        "origin": "Matrix",
+        "sourceLabel": "Matrix"
+      },
+      "secret": false
+    },
+    {
+      "id": "movie_603_matrix_epico_de_matrix_poster",
+      "type": "poster",
+      "title": "Póster Épico de Matrix",
+      "description": "Póster cinematográfico desbloqueable al completar Matrix.",
+      "rarity": "epic",
+      "mediaType": "movie",
+      "tmdbId": 603,
+      "xpAmount": 100,
+      "unlockRule": {
+        "type": "watch_progress",
+        "minimumProgress": 0.9,
+        "contentId": "movie:603",
+        "requiresClaim": true
+      },
+      "assets": {
+        "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/posters/movie_603_matrix_epico_de_matrix_poster/poster.png",
+        "poster": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/posters/movie_603_matrix_epico_de_matrix_poster/poster.png",
+        "background": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/posters/movie_603_matrix_epico_de_matrix_poster/background.png"
+      },
       "sortOrder": 30,
       "collectionId": "movie_603_matrix_collection",
       "origin": "Matrix",
