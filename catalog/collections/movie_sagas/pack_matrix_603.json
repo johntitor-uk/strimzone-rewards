@@ -4,7 +4,7 @@
   "id": "movie_603_matrix_collection_catalog",
   "title": "Matrix",
   "description": "Matrix: Trofeo La Píldora Roja con 500 XP.",
-  "updatedAt": "2026-07-23T23:11:49.125Z",
+  "updatedAt": "2026-07-23T23:20:16.396Z",
   "contentIds": [
     "movie:603"
   ],
@@ -20,7 +20,8 @@
       "finalRewardIds": [
         "movie_603_matrix_la_pildora_roja_trophy",
         "movie_603_matrix_matrix_xp",
-        "movie_603_matrix_epico_de_matrix_poster"
+        "movie_603_matrix_epico_de_matrix_poster",
+        "movie_603_matrix_codigo_de_matrix_trophy"
       ],
       "assets": {
         "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/trophies/movie_603_matrix_la_pildora_roja_trophy/trophy.png",
@@ -107,6 +108,37 @@
         "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/posters/movie_603_matrix_epico_de_matrix_poster/poster.png",
         "poster": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/posters/movie_603_matrix_epico_de_matrix_poster/poster.png",
         "background": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/posters/movie_603_matrix_epico_de_matrix_poster/background.png"
+      },
+      "sortOrder": 30,
+      "collectionId": "movie_603_matrix_collection",
+      "origin": "Matrix",
+      "sourceLabel": "Matrix",
+      "metadata": {
+        "origin": "Matrix",
+        "sourceLabel": "Matrix"
+      },
+      "secret": false
+    },
+    {
+      "id": "movie_603_matrix_codigo_de_matrix_trophy",
+      "type": "trophy",
+      "title": "Trofeo Código de Matrix",
+      "description": "Descifra el código de Matrix y completa la película para desbloquear este trofeo.",
+      "rarity": "mythic",
+      "mediaType": "movie",
+      "tmdbId": 603,
+      "xpAmount": 250,
+      "unlockRule": {
+        "type": "watch_progress",
+        "minimumProgress": 0.9,
+        "contentId": "movie:603",
+        "requiresClaim": true
+      },
+      "assets": {
+        "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/trophies/movie_603_matrix_codigo_de_matrix_trophy/trophy.png",
+        "badge": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/trophies/movie_603_matrix_codigo_de_matrix_trophy/trophy.png",
+        "background": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/trophies/movie_603_matrix_codigo_de_matrix_trophy/background.png",
+        "model": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/trophies/movie_603_matrix_codigo_de_matrix_trophy/model.glb"
       },
       "sortOrder": 30,
       "collectionId": "movie_603_matrix_collection",
