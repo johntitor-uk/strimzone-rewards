@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "catalogType": "collection",
+  "id": "movie_603_matrix_collection_catalog",
+  "title": "Matrix",
+  "description": "Matrix: Trofeo La Píldora Roja con 500 XP.",
+  "updatedAt": "2026-07-23T23:20:16.396Z",
+  "contentIds": [
+    "movie:603"
+  ],
+  "packs": [
+    {
+      "id": "movie_603_matrix_collection",
+      "title": "Matrix",
+      "description": "Recompensa especial de Matrix: Trofeo La Píldora Roja con 500 XP.",
+      "type": "collection",
+      "requiredContentIds": [
+        "movie:603"
+      ],
+      "finalRewardIds": [
+        "movie_603_matrix_la_pildora_roja_trophy",
+        "movie_603_matrix_matrix_xp",
+        "movie_603_matrix_epico_de_matrix_poster",
+        "movie_603_matrix_codigo_de_matrix_trophy"
+      ],
+      "assets": {
+        "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/trophies/movie_603_matrix_la_pildora_roja_trophy/trophy.png",
+        "background": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/trophies/movie_603_matrix_la_pildora_roja_trophy/background.png"
+      },
+      "sortOrder": 5,
+      "addedAt": "2026-07-22T23:55:45.486Z"
+    }
+  ],
+  "rewards": [
+    {
+      "id": "movie_603_matrix_la_pildora_roja_trophy",
+      "type": "trophy",
+      "title": "Trofeo La Píldora Roja",
+      "description": "Completa Matrix para dominar el código y desbloquear este trofeo legendario.",
+      "rarity": "legendary",
+      "mediaType": "movie",
+      "tmdbId": 603,
+      "xpAmount": 500,
+      "unlockRule": {
+        "type": "watch_progress",
+        "minimumProgress": 0.9,
+        "contentId": "movie:603",
+        "requiresClaim": true
+      },
+      "assets": {
+        "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/trophies/movie_603_matrix_la_pildora_roja_trophy/trophy.png",
+        "badge": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/trophies/movie_603_matrix_la_pildora_roja_trophy/trophy.png",
+        "background": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/trophies/movie_603_matrix_la_pildora_roja_trophy/background.png",
+        "model": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/trophies/movie_603_matrix_la_pildora_roja_trophy/model.glb"
+      },
+      "sortOrder": 30,
+      "collectionId": "movie_603_matrix_collection",
+      "origin": "Matrix",
+      "sourceLabel": "Matrix",
+      "metadata": {
+        "origin": "Matrix",
+        "sourceLabel": "Matrix"
+      },
+      "secret": false
+    },
+    {
+      "id": "movie_603_matrix_matrix_xp",
+      "type": "xp",
+      "title": "Premio XP Matrix",
+      "description": "Experiencia por completar Matrix.",
+      "rarity": "common",
+      "mediaType": "movie",
+      "tmdbId": 603,
+      "xpAmount": 250,
+      "unlockRule": {
+        "type": "watch_progress",
+        "minimumProgress": 0.9,
+        "contentId": "movie:603",
+        "requiresClaim": true
+      },
+      "assets": {},
+      "sortOrder": 30,
+      "collectionId": "movie_603_matrix_collection",
+      "origin": "Matrix",
+      "sourceLabel": "Matrix",
+      "metadata": {
+        "origin": "Matrix",
+        "sourceLabel": "Matrix"
+      },
+      "secret": false
+    },
+    {
+      "id": "movie_603_matrix_epico_de_matrix_poster",
+      "type": "poster",
+      "title": "Póster Épico de Matrix",
+      "description": "Póster cinematográfico desbloqueable al completar Matrix.",
+      "rarity": "epic",
+      "mediaType": "movie",
+      "tmdbId": 603,
+      "xpAmount": 100,
+      "unlockRule": {
+        "type": "watch_progress",
+        "minimumProgress": 0.9,
+        "contentId": "movie:603",
+        "requiresClaim": true
+      },
+      "assets": {
+        "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/posters/movie_603_matrix_epico_de_matrix_poster/poster.png",
+        "poster": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/posters/movie_603_matrix_epico_de_matrix_poster/poster.png",
+        "background": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/posters/movie_603_matrix_epico_de_matrix_poster/background.png"
+      },
+      "sortOrder": 30,
+      "collectionId": "movie_603_matrix_collection",
+      "origin": "Matrix",
+      "sourceLabel": "Matrix",
+      "metadata": {
+        "origin": "Matrix",
+        "sourceLabel": "Matrix"
+      },
+      "secret": false
+    },
+    {
+      "id": "movie_603_matrix_codigo_de_matrix_trophy",
+      "type": "trophy",
+      "title": "Trofeo Código de Matrix",
+      "description": "Descifra el código de Matrix y completa la película para desbloquear este trofeo.",
+      "rarity": "mythic",
+      "mediaType": "movie",
+      "tmdbId": 603,
+      "xpAmount": 250,
+      "unlockRule": {
+        "type": "watch_progress",
+        "minimumProgress": 0.9,
+        "contentId": "movie:603",
+        "requiresClaim": true
+      },
+      "assets": {
+        "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/trophies/movie_603_matrix_codigo_de_matrix_trophy/trophy.png",
+        "badge": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/trophies/movie_603_matrix_codigo_de_matrix_trophy/trophy.png",
+        "background": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/trophies/movie_603_matrix_codigo_de_matrix_trophy/background.png",
+        "model": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/603/trophies/movie_603_matrix_codigo_de_matrix_trophy/model.glb"
+      },
+      "sortOrder": 30,
+      "collectionId": "movie_603_matrix_collection",
+      "origin": "Matrix",
+      "sourceLabel": "Matrix",
+      "metadata": {
+        "origin": "Matrix",
+        "sourceLabel": "Matrix"
+      },
+      "secret": false
+    }
+  ]
+}
