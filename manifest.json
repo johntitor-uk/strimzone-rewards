@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-27T18:03:35.322Z",
+  "updatedAt": "2026-07-29T21:42:37.163Z",
   "catalogs": {
     "movies": {
       "105": [
@@ -17,6 +17,9 @@
       ],
       "1273221": [
         "catalog/collections/movie_sagas/pack_scary_movie_1273221.json"
+      ],
+      "1368337": [
+        "catalog/collections/movie_sagas/pack_la_odisea_1368337.json"
       ]
     },
     "series": {},
@@ -28,6 +31,9 @@
       ],
       "movie_603_matrix_collection": [
         "catalog/collections/movie_sagas/pack_matrix_603.json"
+      ],
+      "movie_1368337_la_odisea_collection": [
+        "catalog/collections/movie_sagas/pack_la_odisea_1368337.json"
       ]
     }
   }

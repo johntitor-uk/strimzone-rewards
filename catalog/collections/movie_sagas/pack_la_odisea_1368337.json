@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "catalogType": "collection",
+  "id": "movie_1368337_la_odisea_collection_catalog",
+  "title": "La odisea",
+  "description": "La odisea: Trofeo La odisea con 250 XP.",
+  "updatedAt": "2026-07-29T21:42:35.455Z",
+  "contentIds": [
+    "movie:1368337"
+  ],
+  "packs": [
+    {
+      "id": "movie_1368337_la_odisea_collection",
+      "title": "La odisea",
+      "description": "Recompensa especial de La odisea: Trofeo La odisea con 250 XP.",
+      "type": "collection",
+      "requiredContentIds": [
+        "movie:1368337"
+      ],
+      "finalRewardIds": [
+        "movie_1368337_la_odisea_la_odisea_trophy"
+      ],
+      "assets": {
+        "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1368337/trophies/movie_1368337_la_odisea_la_odisea_trophy/trophy.png",
+        "background": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1368337/trophies/movie_1368337_la_odisea_la_odisea_trophy/background.png"
+      },
+      "sortOrder": 5,
+      "addedAt": "2026-07-29T21:42:35.455Z"
+    }
+  ],
+  "rewards": [
+    {
+      "id": "movie_1368337_la_odisea_la_odisea_trophy",
+      "type": "trophy",
+      "title": "Trofeo La odisea",
+      "description": "Tras la caída de Troya, el legendario rey de Ítaca, Odiseo a.k.a. Ulises, emprende un largo y peligroso viaje para regresar junto a su esposa Penélope y su hijo Telémaco. En el camino deberá enfrentarse a criaturas mitológicas, dioses caprichosos y pruebas que pondrán a prueba su ingenio, su resistencia y su humanidad. Mientras tanto, en Ítaca, el futuro de su reino pende de un hilo ante la creciente amenaza de quienes creen que jamás volverá.",
+      "rarity": "legendary",
+      "mediaType": "movie",
+      "tmdbId": 1368337,
+      "xpAmount": 250,
+      "unlockRule": {
+        "type": "watch_progress",
+        "minimumProgress": 0.9,
+        "contentId": "movie:1368337",
+        "requiresClaim": true
+      },
+      "assets": {
+        "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1368337/trophies/movie_1368337_la_odisea_la_odisea_trophy/trophy.png",
+        "badge": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1368337/trophies/movie_1368337_la_odisea_la_odisea_trophy/trophy.png",
+        "background": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1368337/trophies/movie_1368337_la_odisea_la_odisea_trophy/background.png",
+        "model": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1368337/trophies/movie_1368337_la_odisea_la_odisea_trophy/model-4f5809835aec0bd7.glb"
+      },
+      "sortOrder": 30,
+      "collectionId": "movie_1368337_la_odisea_collection",
+      "origin": "La odisea",
+      "sourceLabel": "La odisea",
+      "metadata": {
+        "origin": "La odisea",
+        "sourceLabel": "La odisea"
+      },
+      "secret": false
+    }
+  ]
+}
