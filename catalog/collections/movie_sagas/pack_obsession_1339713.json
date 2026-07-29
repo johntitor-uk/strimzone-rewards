@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "catalogType": "collection",
+  "id": "movie_1339713_obsession_collection_catalog",
+  "title": "Obsession",
+  "description": "Obsession: Trofeo Obsession con 500 XP.",
+  "updatedAt": "2026-07-29T23:56:29.542Z",
+  "contentIds": [
+    "movie:1339713"
+  ],
+  "packs": [
+    {
+      "id": "movie_1339713_obsession_collection",
+      "title": "Obsession",
+      "description": "Recompensa especial de Obsession: Trofeo Obsession con 500 XP.",
+      "type": "collection",
+      "requiredContentIds": [
+        "movie:1339713"
+      ],
+      "finalRewardIds": [
+        "movie_1339713_obsession_obsession_trophy"
+      ],
+      "assets": {
+        "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1339713/trophies/movie_1339713_obsession_obsession_trophy/trophy.png",
+        "background": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1339713/trophies/movie_1339713_obsession_obsession_trophy/background.png"
+      },
+      "sortOrder": 5,
+      "addedAt": "2026-07-29T23:56:29.542Z"
+    }
+  ],
+  "rewards": [
+    {
+      "id": "movie_1339713_obsession_obsession_trophy",
+      "type": "trophy",
+      "title": "Trofeo Obsession",
+      "description": "El anhelo romántico desesperado de un chico por su amor platónico de toda la vida desencadena un siniestro hechizo: Niki se vuelve irracionalmente obsesiva hasta convertirse en la sombra de Bear. Una fantasía aparentemente inofensiva que se convertirá en una perturbadora pesadilla.",
+      "rarity": "legendary",
+      "mediaType": "movie",
+      "tmdbId": 1339713,
+      "xpAmount": 500,
+      "unlockRule": {
+        "type": "watch_progress",
+        "minimumProgress": 0.9,
+        "contentId": "movie:1339713",
+        "requiresClaim": true
+      },
+      "assets": {
+        "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1339713/trophies/movie_1339713_obsession_obsession_trophy/trophy.png",
+        "badge": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1339713/trophies/movie_1339713_obsession_obsession_trophy/trophy.png",
+        "background": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1339713/trophies/movie_1339713_obsession_obsession_trophy/background.png",
+        "model": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1339713/trophies/movie_1339713_obsession_obsession_trophy/model-514a9d769b7cd2a1.glb"
+      },
+      "sortOrder": 30,
+      "collectionId": "movie_1339713_obsession_collection",
+      "origin": "Obsession",
+      "sourceLabel": "Obsession",
+      "metadata": {
+        "origin": "Obsession",
+        "sourceLabel": "Obsession"
+      },
+      "secret": false
+    }
+  ]
+}
