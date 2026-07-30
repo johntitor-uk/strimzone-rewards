@@ -4,7 +4,7 @@
   "id": "series_2190_south_park_collection_catalog",
   "title": "South Park",
   "description": "South Park: Trofeo South Park con 100 XP.",
-  "updatedAt": "2026-07-30T02:43:01.697Z",
+  "updatedAt": "2026-07-30T14:06:22.376Z",
   "contentIds": [
     "series:2190"
   ],
@@ -19,7 +19,8 @@
       ],
       "finalRewardIds": [
         "series_2190_south_park_south_park_trophy",
-        "series_2190_south_park_south_park_poster"
+        "series_2190_south_park_south_park_poster",
+        "series_2190_tmdb_2190_south_park_poster"
       ],
       "assets": {
         "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/series/2190/trophies/series_2190_south_park_south_park_trophy/trophy.png",
@@ -94,6 +95,39 @@
       "metadata": {
         "origin": "South Park",
         "sourceLabel": "South Park"
+      },
+      "secret": false
+    },
+    {
+      "id": "series_2190_tmdb_2190_south_park_poster",
+      "type": "poster",
+      "title": "Póster  South Park",
+      "description": "South Park es una serie de televisión estadounidense de animación, creada por Trey Parker y Matt Stone para el canal Comedy Central. Está dirigida al público adulto y se caracteriza por satirizar con humor negro la sociedad, actualidad y cultura estadounidense a través de las historias y situaciones surrealistas que les suceden a sus protagonistas, cuatro niños (Stan, Kyle, Cartman y Kenny) residentes en un pueblo ficticio de Colorado que se llama South Park.",
+      "rarity": "legendary",
+      "mediaType": "series",
+      "tmdbId": 2190,
+      "xpAmount": 348,
+      "unlockRule": {
+        "type": "watch_progress",
+        "minimumProgress": 0.9,
+        "contentId": "series:2190:s6:e13",
+        "targetScope": "episode",
+        "seasonNumber": 6,
+        "episodeNumber": 13,
+        "requiresClaim": true
+      },
+      "assets": {
+        "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/series/2190/posters/series_2190_tmdb_2190_south_park_poster/poster.png",
+        "poster": "https://johntitor-uk.github.io/strimzone-rewards/assets/series/2190/posters/series_2190_tmdb_2190_south_park_poster/poster.png",
+        "background": "https://johntitor-uk.github.io/strimzone-rewards/assets/series/2190/posters/series_2190_tmdb_2190_south_park_poster/background.png"
+      },
+      "sortOrder": 30,
+      "collectionId": "series_2190_south_park_collection",
+      "origin": "TMDB 2190",
+      "sourceLabel": "TMDB 2190",
+      "metadata": {
+        "origin": "TMDB 2190",
+        "sourceLabel": "TMDB 2190"
       },
       "secret": false
     }
