@@ -4,7 +4,7 @@
   "id": "anime_2190_south_park_collection_catalog",
   "title": "South Park",
   "description": "South Park: Póster South Park con 53 XP.",
-  "updatedAt": "2026-07-30T01:04:37.440Z",
+  "updatedAt": "2026-07-30T01:08:36.867Z",
   "contentIds": [
     "anime:2190"
   ],
@@ -18,7 +18,8 @@
         "anime:2190"
       ],
       "finalRewardIds": [
-        "anime_2190_south_park_south_park_poster"
+        "anime_2190_south_park_south_park_poster",
+        "anime_2190_south_park_south_park_trophy"
       ],
       "assets": {
         "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/anime/2190/posters/anime_2190_south_park_south_park_poster/poster.png",
@@ -51,6 +52,40 @@
         "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/anime/2190/posters/anime_2190_south_park_south_park_poster/poster.png",
         "poster": "https://johntitor-uk.github.io/strimzone-rewards/assets/anime/2190/posters/anime_2190_south_park_south_park_poster/poster.png",
         "background": "https://johntitor-uk.github.io/strimzone-rewards/assets/anime/2190/posters/anime_2190_south_park_south_park_poster/background.png"
+      },
+      "sortOrder": 30,
+      "collectionId": "anime_2190_south_park_collection",
+      "origin": "South Park",
+      "sourceLabel": "South Park",
+      "metadata": {
+        "origin": "South Park",
+        "sourceLabel": "South Park"
+      },
+      "secret": false
+    },
+    {
+      "id": "anime_2190_south_park_south_park_trophy",
+      "type": "trophy",
+      "title": "Trofeo South Park",
+      "description": "South Park es una serie de televisión estadounidense de animación, creada por Trey Parker y Matt Stone para el canal Comedy Central. Está dirigida al público adulto y se caracteriza por satirizar con humor negro la sociedad, actualidad y cultura estadounidense a través de las historias y situaciones surrealistas que les suceden a sus protagonistas, cuatro niños (Stan, Kyle, Cartman y Kenny) residentes en un pueblo ficticio de Colorado que se llama South Park.",
+      "rarity": "rare",
+      "mediaType": "anime",
+      "tmdbId": 2190,
+      "xpAmount": 100,
+      "unlockRule": {
+        "type": "watch_progress",
+        "minimumProgress": 0.9,
+        "contentId": "anime:2190:s1:e1",
+        "targetScope": "episode",
+        "seasonNumber": 1,
+        "episodeNumber": 1,
+        "requiresClaim": true
+      },
+      "assets": {
+        "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/anime/2190/trophies/anime_2190_south_park_south_park_trophy/trophy.png",
+        "badge": "https://johntitor-uk.github.io/strimzone-rewards/assets/anime/2190/trophies/anime_2190_south_park_south_park_trophy/trophy.png",
+        "background": "https://johntitor-uk.github.io/strimzone-rewards/assets/anime/2190/trophies/anime_2190_south_park_south_park_trophy/background.png",
+        "model": "https://johntitor-uk.github.io/strimzone-rewards/assets/anime/2190/trophies/anime_2190_south_park_south_park_trophy/model-68dbdb0152fb29dc.glb"
       },
       "sortOrder": 30,
       "collectionId": "anime_2190_south_park_collection",
