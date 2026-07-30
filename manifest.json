@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T02:32:01.813Z",
+  "updatedAt": "2026-07-30T02:34:15.829Z",
   "catalogs": {
     "movies": {
       "105": [
@@ -26,11 +26,7 @@
       ]
     },
     "series": {},
-    "anime": {
-      "2190": [
-        "catalog/collections/anime_sagas/pack_tmdb_2190_2190.json"
-      ]
-    },
+    "anime": {},
     "collections": {
       "pack_back_to_future": [
         "catalog/collections/movie_sagas/pack_back_to_future.json"
@@ -46,9 +42,6 @@
       ],
       "movie_1339713_obsession_collection": [
         "catalog/collections/movie_sagas/pack_obsession_1339713.json"
-      ],
-      "anime_2190_tmdb_2190_collection": [
-        "catalog/collections/anime_sagas/pack_tmdb_2190_2190.json"
       ]
     }
   }
