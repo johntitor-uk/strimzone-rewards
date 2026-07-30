@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T02:34:15.829Z",
+  "updatedAt": "2026-07-30T02:37:34.433Z",
   "catalogs": {
     "movies": {
       "105": [
@@ -25,7 +25,11 @@
         "catalog/collections/movie_sagas/pack_la_odisea_1368337.json"
       ]
     },
-    "series": {},
+    "series": {
+      "2190": [
+        "catalog/collections/series_sagas/pack_south_park_2190.json"
+      ]
+    },
     "anime": {},
     "collections": {
       "pack_back_to_future": [
@@ -42,6 +46,9 @@
       ],
       "movie_1339713_obsession_collection": [
         "catalog/collections/movie_sagas/pack_obsession_1339713.json"
+      ],
+      "series_2190_south_park_collection": [
+        "catalog/collections/series_sagas/pack_south_park_2190.json"
       ]
     }
   }

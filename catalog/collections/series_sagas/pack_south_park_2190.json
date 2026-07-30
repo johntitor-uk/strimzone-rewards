@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "catalogType": "collection",
+  "id": "series_2190_south_park_collection_catalog",
+  "title": "South Park",
+  "description": "South Park: Trofeo South Park con 100 XP.",
+  "updatedAt": "2026-07-30T02:37:31.935Z",
+  "contentIds": [
+    "series:2190"
+  ],
+  "packs": [
+    {
+      "id": "series_2190_south_park_collection",
+      "title": "South Park",
+      "description": "Recompensa especial de South Park: Trofeo South Park con 100 XP.",
+      "type": "collection",
+      "requiredContentIds": [
+        "series:2190"
+      ],
+      "finalRewardIds": [
+        "series_2190_south_park_south_park_trophy"
+      ],
+      "assets": {
+        "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/series/2190/trophies/series_2190_south_park_south_park_trophy/trophy.png",
+        "background": "https://johntitor-uk.github.io/strimzone-rewards/assets/series/2190/trophies/series_2190_south_park_south_park_trophy/background.png"
+      },
+      "sortOrder": 5,
+      "addedAt": "2026-07-30T02:37:31.935Z"
+    }
+  ],
+  "rewards": [
+    {
+      "id": "series_2190_south_park_south_park_trophy",
+      "type": "trophy",
+      "title": "Trofeo South Park",
+      "description": "South Park es una serie de televisión estadounidense de animación, creada por Trey Parker y Matt Stone para el canal Comedy Central. Está dirigida al público adulto y se caracteriza por satirizar con humor negro la sociedad, actualidad y cultura estadounidense a través de las historias y situaciones surrealistas que les suceden a sus protagonistas, cuatro niños (Stan, Kyle, Cartman y Kenny) residentes en un pueblo ficticio de Colorado que se llama South Park.",
+      "rarity": "epic",
+      "mediaType": "series",
+      "tmdbId": 2190,
+      "xpAmount": 100,
+      "unlockRule": {
+        "type": "watch_progress",
+        "minimumProgress": 0.9,
+        "contentId": "series:2190:s1:e1",
+        "targetScope": "episode",
+        "seasonNumber": 1,
+        "episodeNumber": 1,
+        "requiresClaim": true
+      },
+      "assets": {
+        "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/series/2190/trophies/series_2190_south_park_south_park_trophy/trophy.png",
+        "badge": "https://johntitor-uk.github.io/strimzone-rewards/assets/series/2190/trophies/series_2190_south_park_south_park_trophy/trophy.png",
+        "background": "https://johntitor-uk.github.io/strimzone-rewards/assets/series/2190/trophies/series_2190_south_park_south_park_trophy/background.png",
+        "model": "https://johntitor-uk.github.io/strimzone-rewards/assets/series/2190/trophies/series_2190_south_park_south_park_trophy/model-68dbdb0152fb29dc.glb"
+      },
+      "sortOrder": 30,
+      "collectionId": "series_2190_south_park_collection",
+      "origin": "South Park",
+      "sourceLabel": "South Park",
+      "metadata": {
+        "origin": "South Park",
+        "sourceLabel": "South Park"
+      },
+      "secret": false
+    }
+  ]
+}
