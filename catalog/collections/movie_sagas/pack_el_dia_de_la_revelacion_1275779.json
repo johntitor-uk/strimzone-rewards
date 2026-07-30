@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "catalogType": "collection",
+  "id": "movie_1275779_el_dia_de_la_revelacion_collection_catalog",
+  "title": "El día de la revelación",
+  "description": "El día de la revelación: Trofeo El día de la revelación con 148 XP.",
+  "updatedAt": "2026-07-30T22:38:38.256Z",
+  "contentIds": [
+    "movie:1275779"
+  ],
+  "packs": [
+    {
+      "id": "movie_1275779_el_dia_de_la_revelacion_collection",
+      "title": "El día de la revelación",
+      "description": "Recompensa especial de El día de la revelación: Trofeo El día de la revelación con 148 XP.",
+      "type": "collection",
+      "requiredContentIds": [
+        "movie:1275779"
+      ],
+      "finalRewardIds": [
+        "movie_1275779_el_dia_de_la_revelacion_el_dia_de_la_revelacion_trophy"
+      ],
+      "assets": {
+        "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1275779/trophies/movie_1275779_el_dia_de_la_revelacion_el_dia_de_la_revelacion_trophy/trophy.png",
+        "background": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1275779/trophies/movie_1275779_el_dia_de_la_revelacion_el_dia_de_la_revelacion_trophy/background.png"
+      },
+      "sortOrder": 5,
+      "addedAt": "2026-07-30T22:38:38.256Z"
+    }
+  ],
+  "rewards": [
+    {
+      "id": "movie_1275779_el_dia_de_la_revelacion_el_dia_de_la_revelacion_trophy",
+      "type": "trophy",
+      "title": "Trofeo El día de la revelación",
+      "description": "Entre conspiraciones gubernamentales y avances tecnológicos, toda la humanidad está a punto de conocer la verdad sobre la existencia extraterrestre y su devenir.",
+      "rarity": "epic",
+      "mediaType": "movie",
+      "tmdbId": 1275779,
+      "xpAmount": 148,
+      "unlockRule": {
+        "type": "watch_progress",
+        "minimumProgress": 0.9,
+        "contentId": "movie:1275779",
+        "targetScope": "content",
+        "requiresClaim": true
+      },
+      "assets": {
+        "image": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1275779/trophies/movie_1275779_el_dia_de_la_revelacion_el_dia_de_la_revelacion_trophy/trophy.png",
+        "badge": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1275779/trophies/movie_1275779_el_dia_de_la_revelacion_el_dia_de_la_revelacion_trophy/trophy.png",
+        "background": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1275779/trophies/movie_1275779_el_dia_de_la_revelacion_el_dia_de_la_revelacion_trophy/background.png",
+        "model": "https://johntitor-uk.github.io/strimzone-rewards/assets/movies/1275779/trophies/movie_1275779_el_dia_de_la_revelacion_el_dia_de_la_revelacion_trophy/model-c316abeb04cd1d83.glb"
+      },
+      "sortOrder": 30,
+      "collectionId": "movie_1275779_el_dia_de_la_revelacion_collection",
+      "origin": "El día de la revelación",
+      "sourceLabel": "El día de la revelación",
+      "metadata": {
+        "origin": "El día de la revelación",
+        "sourceLabel": "El día de la revelación"
+      },
+      "secret": false
+    }
+  ]
+}
