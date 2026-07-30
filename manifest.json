@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T14:06:22.129Z",
+  "updatedAt": "2026-07-30T22:38:40.411Z",
   "catalogs": {
     "movies": {
       "105": [
@@ -17,6 +17,9 @@
       ],
       "1273221": [
         "catalog/collections/movie_sagas/pack_scary_movie_1273221.json"
+      ],
+      "1275779": [
+        "catalog/collections/movie_sagas/pack_el_dia_de_la_revelacion_1275779.json"
       ],
       "1339713": [
         "catalog/collections/movie_sagas/pack_obsession_1339713.json"
@@ -49,6 +52,9 @@
       ],
       "series_2190_south_park_collection": [
         "catalog/collections/series_sagas/pack_south_park_2190.json"
+      ],
+      "movie_1275779_el_dia_de_la_revelacion_collection": [
+        "catalog/collections/movie_sagas/pack_el_dia_de_la_revelacion_1275779.json"
       ]
     }
   }
