@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T01:08:36.618Z",
+  "updatedAt": "2026-07-30T02:25:54.026Z",
   "catalogs": {
     "movies": {
       "105": [
@@ -26,13 +26,11 @@
       ]
     },
     "series": {},
-    "anime": {
-      "2190": [
-        "catalog/collections/anime_sagas/pack_south_park_2190.json"
-      ]
-    },
+    "anime": {},
     "collections": {
-      "pack_back_to_future": "catalog/collections/movie_sagas/pack_back_to_future.json",
+      "pack_back_to_future": [
+        "catalog/collections/movie_sagas/pack_back_to_future.json"
+      ],
       "movie_1273221_scary_movie_collection": [
         "catalog/collections/movie_sagas/pack_scary_movie_1273221.json"
       ],
@@ -44,9 +42,6 @@
       ],
       "movie_1339713_obsession_collection": [
         "catalog/collections/movie_sagas/pack_obsession_1339713.json"
-      ],
-      "anime_2190_south_park_collection": [
-        "catalog/collections/anime_sagas/pack_south_park_2190.json"
       ]
     }
   }
